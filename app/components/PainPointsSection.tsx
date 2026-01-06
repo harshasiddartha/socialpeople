@@ -2,10 +2,10 @@
 
 export default function PainPointsSection() {
   return (
-    <div className="w-full flex justify-center bg-[#F5E6D3] py-20 px-6 md:px-12">
+    <div className="w-full flex justify-center bg-[#F9F5F0] py-20 px-6 md:px-12">
       <div 
         className="max-w-7xl w-full rounded-[3rem] py-20 px-6 md:px-16 text-center"
-        style={{ backgroundColor: '#6C7D70' }}
+        style={{ backgroundColor: '#4A1D16' }}
       >
         {/* Main Heading */}
         <div className="max-w-5xl mx-auto mb-16">

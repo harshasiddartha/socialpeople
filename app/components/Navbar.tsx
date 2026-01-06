@@ -43,7 +43,7 @@ export default function Navbar() {
     >
       {/* Left: Agency Name */}
       <div className={`font-serif text-xl md:text-2xl font-semibold transition-colors ${
-        isInHero ? "text-[#F5E6D3]" : "text-black"
+        isInHero ? "text-white" : "text-black"
       }`}>
         Social Monks
       </div>
@@ -62,7 +62,7 @@ export default function Navbar() {
             key={item.name}
             href={item.href}
             className={`font-serif text-lg hover:opacity-80 transition-opacity ${
-              isInHero ? "text-[#F5E6D3]" : "text-black"
+              isInHero ? "text-white" : "text-black"
             }`}
           >
             {item.name}
@@ -75,7 +75,7 @@ export default function Navbar() {
         <a href="#contact">
           <button className={`font-serif px-6 py-2 rounded-full text-xs md:text-sm tracking-widest border transition-colors ${
             isInHero 
-              ? "border-white/50 text-[#F5E6D3] hover:bg-[#F5E6D3] hover:text-black" 
+              ? "border-white/50 text-white hover:bg-white hover:text-black" 
               : "border-black text-black hover:bg-black hover:text-white"
           }`}>
             Book a 15-min call

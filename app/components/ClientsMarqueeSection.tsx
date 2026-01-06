@@ -34,7 +34,7 @@ const LogoCard = ({ name, color }: { name: string; color: string }) => (
 
 export default function ClientsMarqueeSection() {
   return (
-    <div className="w-full bg-[#F8FAFC] py-20 overflow-hidden">
+    <div className="w-full bg-white py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-16 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">Who We Work With</h2>
         <p className="text-gray-600 text-lg md:text-xl mb-4">Brands building community, not just reach.</p>

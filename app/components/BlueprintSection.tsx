@@ -2,10 +2,10 @@
 
 export default function BlueprintSection() {
   return (
-    <div className="relative w-full bg-[#6B7F5A] py-8 md:py-12 px-6 md:px-12 overflow-hidden">
+    <div className="relative w-full bg-[#4A1D16] py-8 md:py-12 px-6 md:px-12 overflow-hidden">
       {/* Light beige rounded border on top and left */}
-      <div className="absolute top-0 left-0 w-full h-8 md:h-12 bg-[#F5E6D3] rounded-br-3xl"></div>
-      <div className="absolute top-0 left-0 w-8 md:w-12 h-full bg-[#F5E6D3] rounded-br-3xl"></div>
+      <div className="absolute top-0 left-0 w-full h-8 md:h-12 bg-[#F9F5F0] rounded-br-3xl"></div>
+      <div className="absolute top-0 left-0 w-8 md:w-12 h-full bg-[#F9F5F0] rounded-br-3xl"></div>
 
       <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center">
         {/* Main Title */}

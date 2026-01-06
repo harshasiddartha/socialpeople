@@ -96,12 +96,12 @@ export default function ServicesTabSection() {
   const activeContent = services.find((s) => s.id === activeTab) || services[0];
 
   return (
-    <div className="w-full bg-[#F0FDF4] py-16 md:py-24 px-6 md:px-12">
+    <div className="w-full bg-[#F9F5F0] py-16 md:py-24 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">Our Services</h2>
-          <div className="w-24 h-1 bg-green-600 mx-auto rounded-full"></div>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#4A1D16] mb-4">Our Services</h2>
+          <div className="w-24 h-1 bg-[#8B4513] mx-auto rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
@@ -113,8 +113,8 @@ export default function ServicesTabSection() {
                 onClick={() => setActiveTab(service.id)}
                 className={`text-left px-6 py-4 rounded-r-lg border-l-4 transition-all duration-300 font-semibold text-sm md:text-base ${
                   activeTab === service.id
-                    ? "border-green-600 bg-gradient-to-r from-green-100 to-transparent text-black shadow-sm"
-                    : "border-transparent text-gray-600 hover:bg-gray-50 hover:text-black"
+                    ? "border-[#8B4513] bg-gradient-to-r from-[#E8D5C4] to-transparent text-[#4A1D16] shadow-sm"
+                    : "border-transparent text-gray-600 hover:bg-[#F3Ebe0] hover:text-[#5C3D2E]"
                 }`}
               >
                 {service.label}
@@ -124,21 +124,21 @@ export default function ServicesTabSection() {
 
           {/* Content Area */}
           <div className="lg:col-span-9">
-            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 h-full">
+            <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-[#E5E0D8] h-full">
               {/* Image & Title */}
               <div className="relative rounded-xl overflow-hidden mb-8 group">
                 {/* Image Overlay with Title */}
-                <div className="aspect-video w-full bg-gray-100 relative">
+                <div className="aspect-video w-full bg-[#F3Ebe0] relative">
                     <img 
                         src={activeContent.image} 
                         alt={activeContent.title}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover opacity-90"
                     />
                     <div className="absolute inset-0 bg-white/80 flex flex-col items-center justify-center p-8 text-center">
-                         <h3 className="text-3xl md:text-5xl font-bold text-[#0F172A] mb-4 uppercase tracking-tight">
+                         <h3 className="text-3xl md:text-5xl font-bold text-[#4A1D16] mb-4 uppercase tracking-tight">
                             {activeContent.title}
                          </h3>
-                         <div className="bg-[#E2E8F0] p-4 rounded-lg shadow-sm">
+                         <div className="bg-[#E8D5C4] p-4 rounded-lg shadow-sm text-[#4A1D16]">
                              {/* Placeholder illustration representation */}
                             <div className="text-6xl">✨ 🚀</div>
                          </div>
@@ -148,10 +148,10 @@ export default function ServicesTabSection() {
 
               {/* Text Content */}
               <div className="mb-8">
-                <p className="text-gray-700 leading-relaxed mb-4 text-sm md:text-base">
+                <p className="text-[#5C3D2E] leading-relaxed mb-4 text-sm md:text-base">
                   {activeContent.description}
                 </p>
-                <p className="text-black font-medium text-sm md:text-base">
+                <p className="text-[#4A1D16] font-medium text-sm md:text-base">
                   {activeContent.subtext}
                 </p>
               </div>
@@ -159,9 +159,9 @@ export default function ServicesTabSection() {
               {/* Features Grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 {activeContent.features.map((feature, idx) => (
-                  <div key={idx} className="bg-gray-50 p-4 rounded-lg border border-gray-100 flex items-center gap-3 hover:shadow-md transition-shadow">
-                    <span className="text-xl text-green-600">{feature.icon}</span>
-                    <span className="text-xs font-bold text-gray-800 uppercase tracking-wide">
+                  <div key={idx} className="bg-[#F9F5F0] p-4 rounded-lg border border-[#E5E0D8] flex items-center gap-3 hover:shadow-md transition-shadow">
+                    <span className="text-xl text-[#8B4513]">{feature.icon}</span>
+                    <span className="text-xs font-bold text-[#5C3D2E] uppercase tracking-wide">
                       {feature.title}
                     </span>
                   </div>
