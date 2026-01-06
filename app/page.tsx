@@ -5,7 +5,8 @@ import FounderSection from "./components/FounderSection";
 import WorkWithUsSection from "./components/WorkWithUsSection";
 import PainPointsSection from "./components/PainPointsSection";
 import Testimonial from "./components/Testimonial";
-import ServicesSection from "./components/ServicesSection";
+import ServicesTabSection from "./components/ServicesTabSection";
+import ClientsMarqueeSection from "./components/ClientsMarqueeSection";
 import Navbar from "./components/Navbar";
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
       <Testimonial quote={""} supportingText={""} author={""} company={""}/>
       
       <section id="services" className="scroll-mt-24">
-        <ServicesSection/>
+        <ServicesTabSection/>
       </section>
 
       <section id="work" className="scroll-mt-24">
@@ -34,6 +35,10 @@ export default function Home() {
 
       <section id="about" className="scroll-mt-24">
         <FounderSection />
+      </section>
+
+      <section id="clients" className="scroll-mt-24">
+        <ClientsMarqueeSection />
       </section>
     
       <section id="contact" className="scroll-mt-24">

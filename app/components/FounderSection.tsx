@@ -10,13 +10,21 @@ export default function FounderSection() {
             <div className="space-y-6">
               {/* Title */}
               <h2 className="text-[#8B4513] font-serif text-4xl md:text-5xl lg:text-6xl font-bold italic">
-                About Us
+                Built Around People. Designed for Growth.
               </h2>
 
               {/* Bio Paragraph */}
-              <p className="text-[#5C3D2E] font-sans text-base md:text-lg leading-relaxed">
-                We Build Brands with Meaning and Momentum. A creative partner for bold ideas — blending strategy, design, code, and visual storytelling. We're here to create something impactful — together.
-              </p>
+              <div className="text-[#5C3D2E] font-sans text-base md:text-lg leading-relaxed space-y-4">
+                <p>
+                  We are a modern media agency built on one belief: People come before platforms. Always.
+                </p>
+                <p>
+                  Inspired by the people-first philosophy of Social People Agency and the end-to-end ownership model of Techorses, we exist to help brands stay human while scaling intelligently.
+                </p>
+                <p>
+                  We don’t separate strategy from execution. We don’t separate creativity from performance. We take responsibility for the entire system.
+                </p>
+              </div>
 
               {/* Companies Section */}
               <div className="mt-8">

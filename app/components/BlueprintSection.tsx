@@ -10,14 +10,14 @@ export default function BlueprintSection() {
       <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center">
         {/* Main Title */}
         <h1 className="text-white font-serif font-bold text-4xl md:text-6xl lg:text-7xl text-center mb-8 md:mb-10 italic">
-          Selected Work
+          How We Work
         </h1>
 
         {/* Blueprint Image */}
         <div className="w-full max-w-3xl mb-8 md:mb-12">
           <img 
             src="/blueprint.webp" 
-            alt="Selected Work Showcase" 
+            alt="Our Process Blueprint" 
             className="w-full h-40 md:h-60 lg:h-72 object-contain"
             style={{ maxHeight: '18rem' }}
           />
@@ -26,23 +26,23 @@ export default function BlueprintSection() {
         {/* Secondary Title */}
         <div className="text-center mb-4 md:mb-6">
           <h2 className="text-white font-serif font-bold text-xl md:text-3xl lg:text-4xl italic mb-2">
-            Work that speaks
+            Media as a
           </h2>
           <h2 className="text-white font-serif font-bold text-xl md:text-3xl lg:text-4xl italic">
-            for itself.
+            living system.
           </h2>
         </div>
 
         {/* Three Paragraphs */}
         <div className="max-w-2xl mx-auto space-y-4 md:space-y-6 text-white font-sans text-center text-xs md:text-sm lg:text-base leading-relaxed opacity-90">
           <p>
-            A look at the brands, websites, and visuals we’ve brought to life — combining strategy, creativity, and craft.
+            <strong>Discover & Design:</strong> We study your audience—language, motivations, friction points—and translate insight into a clear, consistent brand voice and media system.
           </p>
           <p>
-            From strategy to launch, we help brands find their voice and build momentum in a crowded landscape.
+            <strong>Deliver & Learn:</strong> We execute strategy and creative in lockstep, using paid media to accelerate what works, not mask weak strategy.
           </p>
           <p>
-            Bold ideas, beautifully executed. We create brands, websites, and visual content that move businesses forward.
+            <strong>Scale:</strong> We measure engagement and growth signals to optimize and expand intelligently, ensuring creativity never disconnects from performance.
           </p>
         </div>
       </div>

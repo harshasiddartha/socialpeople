@@ -26,7 +26,7 @@ export default function TestimonialSection() {
 
         {/* Testimonial Quote */}
         <blockquote className="text-[#5C3D2E] font-serif italic text-lg md:text-xl lg:text-2xl leading-relaxed max-w-3xl mx-auto">
-          &ldquo;Social People did an excellent job reviewing our Social Media channels, making helpful short term as well as longer term strategic recommendations for our organic and paid activity.&rdquo;
+          &ldquo;Path Breakers did an excellent job reviewing our Social Media channels, making helpful short term as well as longer term strategic recommendations for our organic and paid activity.&rdquo;
         </blockquote>
       </div>
     </div>
