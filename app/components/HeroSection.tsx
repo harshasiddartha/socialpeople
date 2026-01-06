@@ -17,28 +17,20 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 md:px-12 pb-10 pt-20">
         {/* Main Headline */}
-        <div className="text-center mb-8">
-          <div className="font-serif text-[#F8F5ED] text-3xl md:text-5xl lg:text-6xl font-bold mb-[-0.2em] relative z-10 italic">
-            we are
-          </div>
-          <div className="flex flex-col items-center leading-[0.85]">
-            <span className="font-serif text-[#F8F5ED] text-[5rem] sm:text-[8rem] md:text-[10rem] lg:text-[13rem] font-bold tracking-tighter">
-              social
-            </span>
-            <span className="font-serif text-[#F8F5ED] text-[5rem] sm:text-[8rem] md:text-[10rem] lg:text-[13rem] font-bold tracking-tighter mt-[-0.1em]">
-              people
-            </span>
-          </div>
+        <div className="text-center mb-8 max-w-6xl">
+          <h1 className="font-serif text-[#F8F5ED] text-5xl md:text-7xl lg:text-8xl font-bold leading-tight tracking-tight mb-6">
+            We Build Brands with Meaning and Momentum
+          </h1>
         </div>
 
         {/* Sub-headline */}
-        <p className="text-[#F8F5ED] text-sm md:text-lg font-serif italic mb-10 text-center max-w-xl tracking-wide">
-          data + cultural insight = content that gets results
+        <p className="text-[#F8F5ED] text-lg md:text-xl lg:text-2xl font-serif italic mb-10 text-center max-w-3xl tracking-wide leading-relaxed">
+          A creative partner for bold ideas — blending strategy, design, code, and visual storytelling.
         </p>
 
         {/* Call to Action Button */}
-        <button className="bg-[#D4A574] hover:bg-[#C49564] text-black font-sans uppercase tracking-widest text-xs md:text-sm px-8 py-3 rounded-full transition-colors font-medium">
-          work with us
+        <button className="bg-[#D4A574] hover:bg-[#C49564] text-black font-sans uppercase tracking-widest text-xs md:text-sm px-8 py-4 rounded-full transition-colors font-medium">
+          Start Your Project
         </button>
       </div>
     </div>

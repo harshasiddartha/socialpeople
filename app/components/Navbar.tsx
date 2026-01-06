@@ -45,54 +45,42 @@ export default function Navbar() {
       <div className={`font-serif text-xl md:text-2xl font-semibold transition-colors ${
         isInHero ? "text-[#F5E6D3]" : "text-black"
       }`}>
-        Social People Agency
+        Social Monks
       </div>
 
       {/* Center: Navigation */}
-      <div className="hidden md:flex items-center">
-        <a href="#" className={`font-serif text-lg hover:opacity-80 transition-opacity ${
-          isInHero ? "text-[#F5E6D3]" : "text-black"
-        }`}>
-          Home
-        </a>
-      </div>
-
-      {/* Right: Login, Cart, and CTA */}
-      <div className="flex items-center gap-4 md:gap-6">
-        <a href="#" className={`font-serif text-lg hover:opacity-80 transition-opacity hidden md:block ${
-          isInHero ? "text-[#F5E6D3]" : "text-black"
-        }`}>
-          Login
-        </a>
-        <div className="flex items-center gap-1">
-          <svg 
-            className={`w-5 h-5 transition-colors ${
+      <div className="hidden lg:flex items-center gap-8">
+        {[
+          { name: "Home", href: "#home" },
+          { name: "Values", href: "#values" },
+          { name: "Services", href: "#services" },
+          { name: "Work", href: "#work" },
+          { name: "About", href: "#about" },
+          { name: "Contact", href: "#contact" },
+        ].map((item) => (
+          <a 
+            key={item.name}
+            href={item.href}
+            className={`font-serif text-lg hover:opacity-80 transition-opacity ${
               isInHero ? "text-[#F5E6D3]" : "text-black"
             }`}
-            fill="none" 
-            stroke="currentColor" 
-            viewBox="0 0 24 24"
           >
-            <path 
-              strokeLinecap="round" 
-              strokeLinejoin="round" 
-              strokeWidth={2} 
-              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" 
-            />
-          </svg>
-          <span className={`font-serif text-sm transition-colors ${
-            isInHero ? "text-[#F5E6D3]" : "text-black"
+            {item.name}
+          </a>
+        ))}
+      </div>
+
+      {/* Right: CTA */}
+      <div className="flex items-center gap-4 md:gap-6">
+        <a href="#contact">
+          <button className={`font-serif px-6 py-2 rounded-full text-xs md:text-sm tracking-widest border transition-colors ${
+            isInHero 
+              ? "border-white/50 text-[#F5E6D3] hover:bg-[#F5E6D3] hover:text-black" 
+              : "border-black text-black hover:bg-black hover:text-white"
           }`}>
-            0
-          </span>
-        </div>
-        <button className={`font-serif px-6 py-2 rounded-full text-xs md:text-sm tracking-widest border transition-colors ${
-          isInHero 
-            ? "border-white/50 text-[#F5E6D3] hover:bg-[#F5E6D3] hover:text-black" 
-            : "border-black text-black hover:bg-black hover:text-white"
-        }`}>
-          HIRE US!
-        </button>
+            Book a 15-min call
+          </button>
+        </a>
       </div>
     </nav>
   );

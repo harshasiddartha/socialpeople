@@ -10,13 +10,13 @@ export default function PainPointsSection() {
         {/* Main Heading */}
         <div className="max-w-5xl mx-auto mb-16">
           <h1 className="font-serif text-white text-2xl md:text-4xl lg:text-5xl font-bold mb-8 italic leading-tight">
-            Sick of social media that sucks up time, drains your budget, and delivers... what, exactly?
+            We Build Brands with Meaning and Momentum
           </h1>
           <h2 className="font-serif text-white text-xl md:text-3xl lg:text-4xl font-bold mb-4 italic">
-            You&apos;re not alone.
+            Core Values
           </h2>
           <p className="font-sans text-white/90 text-sm md:text-base">
-            Does this sound like you?
+            How we work with you
           </p>
         </div>
 
@@ -33,10 +33,10 @@ export default function PainPointsSection() {
             ></div>
             <div className="relative z-10 p-8 md:p-10 flex flex-col justify-center items-center h-full text-center">
               <h3 className="font-serif text-[#5C281F] text-lg md:text-xl font-bold mb-4 leading-tight">
-                You&apos;re posting, but not progressing.
+                Strategic Creativity
               </h3>
               <p className="font-sans text-[#5C281F] text-xs md:text-sm leading-relaxed">
-                Content calendars are full. Your pipeline isn&apos;t. What gives?
+                Blending strategy, design, and storytelling to create work that works.
               </p>
             </div>
           </div>
@@ -52,10 +52,10 @@ export default function PainPointsSection() {
             ></div>
             <div className="relative z-10 p-8 md:p-10 flex flex-col justify-center items-center h-full text-center">
               <h3 className="font-serif text-[#5C281F] text-lg md:text-xl font-bold mb-4 leading-tight">
-                You&apos;ve been talking &ldquo;likes&rdquo; when you should be talking leads.
+                End-to-End Craft
               </h3>
               <p className="font-sans text-[#5C281F] text-xs md:text-sm leading-relaxed">
-                It&apos;s about impact, not empty engagement.
+                From concept to launch, every detail is considered and crafted with care.
               </p>
             </div>
           </div>
@@ -71,10 +71,10 @@ export default function PainPointsSection() {
             ></div>
             <div className="relative z-10 p-8 md:p-10 flex flex-col justify-center items-center h-full text-center">
               <h3 className="font-serif text-[#5C281F] text-lg md:text-xl font-bold mb-4 leading-tight">
-                You&apos;re stuck in the scroll.
+                Collaborative Process
               </h3>
               <p className="font-sans text-[#5C281F] text-xs md:text-sm leading-relaxed">
-                You&apos;re reacting to trends instead of setting the pace - and your audience can tell.
+                We build with you, not just for you. Your vision drives our creation.
               </p>
             </div>
           </div>

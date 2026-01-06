@@ -10,18 +10,18 @@ export default function FounderSection() {
             <div className="space-y-6">
               {/* Title */}
               <h2 className="text-[#8B4513] font-serif text-4xl md:text-5xl lg:text-6xl font-bold italic">
-                Meet the founder
+                About Us
               </h2>
 
               {/* Bio Paragraph */}
               <p className="text-[#5C3D2E] font-sans text-base md:text-lg leading-relaxed">
-                Jade Beason is a social media expert who's been on both sides of the brand-building table. She started her career in agencies, moved on to run her own brand, and now she leads Social People, a social media marketing agency that helps brands create socials with substance. Jade has worked with some of the biggest brands in the world and some of the biggest agencies too. Now, she uses everything I've learned to help you level up your social media strategy and create content that actually connects.
+                We Build Brands with Meaning and Momentum. A creative partner for bold ideas — blending strategy, design, code, and visual storytelling. We're here to create something impactful — together.
               </p>
 
               {/* Companies Section */}
               <div className="mt-8">
                 <p className="text-[#5C3D2E] font-sans text-sm md:text-base mb-6">
-                  Jade has worked with:
+                  Trusted by Forward-Thinking Brands:
                 </p>
                 
                 {/* Company Logos Image */}

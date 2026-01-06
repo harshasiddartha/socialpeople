@@ -12,16 +12,33 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <HeroSection />
+      <section id="home">
+        <HeroSection />
+      </section>
     
       <TestimonialSection />
-      <PainPointsSection/>
+      
+      <section id="values" className="scroll-mt-24">
+        <PainPointsSection/>
+      </section>
+
       <Testimonial quote={""} supportingText={""} author={""} company={""}/>
-      <ServicesSection/>
-      <BlueprintSection />
-      <FounderSection />
+      
+      <section id="services" className="scroll-mt-24">
+        <ServicesSection/>
+      </section>
+
+      <section id="work" className="scroll-mt-24">
+        <BlueprintSection />
+      </section>
+
+      <section id="about" className="scroll-mt-24">
+        <FounderSection />
+      </section>
     
-      <WorkWithUsSection/>
+      <section id="contact" className="scroll-mt-24">
+        <WorkWithUsSection/>
+      </section>
     </>
   );
 }

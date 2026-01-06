@@ -10,14 +10,14 @@ export default function BlueprintSection() {
       <div className="max-w-7xl mx-auto relative z-10 flex flex-col items-center">
         {/* Main Title */}
         <h1 className="text-white font-serif font-bold text-4xl md:text-6xl lg:text-7xl text-center mb-8 md:mb-10 italic">
-          Your Blueprint
+          Selected Work
         </h1>
 
         {/* Blueprint Image */}
         <div className="w-full max-w-3xl mb-8 md:mb-12">
           <img 
             src="/blueprint.webp" 
-            alt="Social People Blueprint Audit" 
+            alt="Selected Work Showcase" 
             className="w-full h-40 md:h-60 lg:h-72 object-contain"
             style={{ maxHeight: '18rem' }}
           />
@@ -26,23 +26,23 @@ export default function BlueprintSection() {
         {/* Secondary Title */}
         <div className="text-center mb-4 md:mb-6">
           <h2 className="text-white font-serif font-bold text-xl md:text-3xl lg:text-4xl italic mb-2">
-            Your socials, decoded.
+            Work that speaks
           </h2>
           <h2 className="text-white font-serif font-bold text-xl md:text-3xl lg:text-4xl italic">
-            Your strategy, redefined.
+            for itself.
           </h2>
         </div>
 
         {/* Three Paragraphs */}
         <div className="max-w-2xl mx-auto space-y-4 md:space-y-6 text-white font-sans text-center text-xs md:text-sm lg:text-base leading-relaxed opacity-90">
           <p>
-            Forget vanity metrics and vague reports. The Blueprint is our bespoke deep-dive into your brand's social performance, revealing what's working, what's wasted, and what's next.
+            A look at the brands, websites, and visuals we’ve brought to life — combining strategy, creativity, and craft.
           </p>
           <p>
-            We combine real data with cultural intelligence to uncover how your content is truly landing with the audiences that matter most.
+            From strategy to launch, we help brands find their voice and build momentum in a crowded landscape.
           </p>
           <p>
-            No guesswork. No fluff. Just sharp, actionable insight - built around your brand goals - so your social channels aren't just showing up... they're showing results.
+            Bold ideas, beautifully executed. We create brands, websites, and visual content that move businesses forward.
           </p>
         </div>
       </div>
